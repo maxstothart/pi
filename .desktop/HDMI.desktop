@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=TFT
+Comment=Switch From HDMI To TFT
+Type=Application
+Exec=xterm -e "cd /LCD-show && ./LCD35-show"
+Icon=utilities-terminal
