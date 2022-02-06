@@ -3,8 +3,8 @@ echo "Hello Max"
 sudo whoami
 echo "Starting load please be patient"
 echo "starting initial setup"
-cp ~/pi/.desktop/TFT.Desktop ~/.local/share/applications/TFT.desktop
-cp ~/pi/.desktop/HDMI.Desktop ~/.local/share/applications/HDMI.desktop
+cp .desktop/TFT.desktop ~/.local/share/applications/TFT.desktop
+cp .desktop/HDMI.desktop ~/.local/share/applications/HDMI.desktop
 cd /
 git clone https://github.com/waveshare/LCD-show.git
 sudo apt install idle -y
