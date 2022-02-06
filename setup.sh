@@ -25,12 +25,9 @@ else
 		sudo apt update -y
 		sudo apt upgrade -y
   
-	echo "setting up LCD screen"
+	echo "setting up LCD screen then rebooting"
 		cd /LCD-show
 		chmod +x LCD35-show
 		./LCD35-show 270
   
-	echo "rebooting in 5"
-		sleep 5
-		echo "sudo reboot"
 fi
