@@ -1,8 +1,4 @@
-#!/bin/bash
-user=whoami
-if [ $user = root ]
-then
-  echo "user is root"
-else
-  echo "user is not root"
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root"
+  exit
 fi
