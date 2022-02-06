@@ -31,6 +31,6 @@ else
 		./LCD35-show 270
   
 	echo "rebooting in 5"
-		sleep(5000)
+		sleep 5
 		echo "sudo reboot"
 fi
