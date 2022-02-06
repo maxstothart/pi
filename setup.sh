@@ -26,7 +26,7 @@ else
 		sudo apt upgrade -y
   
 	echo "setting up LCD screen"
-		cd LCD-show
+		cd /LCD-show
 		chmod +x LCD35-show
 		./LCD35-show 270
   
