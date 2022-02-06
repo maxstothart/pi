@@ -1,7 +1,7 @@
-#!/bin/sh
-if [ $EUID -ne 0 ]
-  then echo "Please run as root"
-  exit
+echo $USER
+if [ "$USER" != "root" ]
+	then echo "Please run as root"
+	exit
 else
 	echo "Starting load please be patient"
 
