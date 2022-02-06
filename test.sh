@@ -1,5 +1,5 @@
 #!/bin/bash
-user=
+user=whoami
 if [ $user = root ]
 then
   echo "user is root"
