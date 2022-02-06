@@ -12,7 +12,7 @@ else
 		cd /
 
 	echo "installing git libaries"
-		git clone https://github.com/waveshare/LCD-show.git
+		git clone https://github.com/goodtft/LCD-show.git
 		git clone https://github.com/markondej/fm_transmitter
 		git clone https://github.com/maxstothart2020/pirate-radio.git
    
