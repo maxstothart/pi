@@ -1,5 +1,5 @@
 echo $USER
-if [ "$USER" -ne "root" ]
+if [ "$USER" != "root" ]
   then echo "Please run as root"
   exit
 else
