@@ -7,8 +7,8 @@ else
 
 	echo "starting initial setup"
 		# copy desktop files from save to application directory
-		cp .desktop/TFT.desktop ~/.local/share/applications/TFT.desktop
-		cp .desktop/HDMI.desktop ~/.local/share/applications/HDMI.desktop
+		cp .desktop/TFT.desktop /home/maxs/.local/share/applications/TFT.desktop
+		cp .desktop/HDMI.desktop /home/maxs/.local/share/applications/HDMI.desktop
 		cd /
 
 	echo "installing git libaries"
