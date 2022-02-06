@@ -1,4 +1,4 @@
-echo $USER
+#echo $USER #uncomment for debug purposes
 if [ "$USER" != "root" ]
 	then echo "Please run as root"
 	exit
