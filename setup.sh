@@ -22,14 +22,15 @@ else
 		sudo apt install idle -y
 		sudo apt upgrade -y
   
-	echo "setting up LCD screen then rebooting"
-		cd /LCD-show
-		chmod +x LCD35-show
-		./LCD35-show 270
-  	echo "setting up Transmitter"
+    	echo "setting up Transmitter"
 		cd /fm_transmitter
 		make GPIO21=1
 		cd /piradio
 		chmod +x setup.sh
 		./setup.sh
+		
+	echo "setting up LCD screen then rebooting"
+		cd /LCD-show
+		chmod +x LCD35-show
+		./LCD35-show 270
 fi
