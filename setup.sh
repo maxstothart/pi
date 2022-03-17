@@ -14,7 +14,6 @@ else
 
 	echo "installing git libaries"
 		git clone https://github.com/goodtft/LCD-show.git
-		git clone https://github.com/markondej/fm_transmitter
 		git clone https://github.com/maxstothart/piradio.git
 
 	echo "installing programs and upgrades"
@@ -23,8 +22,6 @@ else
 		sudo apt upgrade -y
   
     	echo "setting up Transmitter"
-		cd /fm_transmitter
-		make GPIO21=1
 		cd /piradio
 		chmod +x setup.sh
 		./setup.sh
