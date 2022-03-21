@@ -15,6 +15,7 @@ else
 	echo "installing git libaries"
 		git clone https://github.com/goodtft/LCD-show.git
 		git clone https://github.com/maxstothart/piradio.git
+		git clone https://github.com/markondej/fm_transmitter.git
 
 	echo "installing programs and upgrades"
 		sudo apt update -y
